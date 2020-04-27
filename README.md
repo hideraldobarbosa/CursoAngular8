@@ -1,6 +1,12 @@
-Curso Angular Básico
+# Projeto - Curs Angular 8
 
-Tópicos 
+Curso Básico e Avançado de Angular 8 
+
+## 
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### Básico - Tópicos 
 
 1 – Introdução
 
@@ -20,25 +26,14 @@ Tópicos
 
 9 – Consumindo dados do Back-end
 
-10 – Conhecimento Essenciais
 
-Desenvolvinto Angular – Avançado
+### Instalação e Execução
 
-Tópicos
+```
+Cada subpasta compreende um projeto que deve ser instalado e executado separadamente 
+utilizando dentro da pasta o 
 
-1 – Introdução
+> ng install
+```
 
-2 – Observables 
-
-3 – Reactive Forms
-4 – Arquitetura de Componentes
-
-5 – Roteamento Avançado
-
-6 – Pipes Customizados
-
-7 – DI e Zones
-
-8 – Gerenciamento de Estado – RXJS
-
-9 – Testes de Unidade
+And repeat
