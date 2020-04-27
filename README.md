@@ -1,6 +1,10 @@
-Curso Angular Básico
+# Projeto - Curso Básico e Avançado de Angular 8 
 
-Tópicos 
+## 
+
+Este projeto consta de diversas pastas que compõe os cursos Básico e Avançado de Angular v.8 sendo desenvolvidos e executados passo a passo.
+
+### Básico - Tópicos 
 
 1 – Introdução
 
@@ -22,15 +26,14 @@ Tópicos
 
 10 – Conhecimento Essenciais
 
-Desenvolvinto Angular – Avançado
-
-Tópicos
+### Avançado - Tópicos 
 
 1 – Introdução
 
 2 – Observables 
 
 3 – Reactive Forms
+
 4 – Arquitetura de Componentes
 
 5 – Roteamento Avançado
@@ -42,3 +45,11 @@ Tópicos
 8 – Gerenciamento de Estado – RXJS
 
 9 – Testes de Unidade
+
+### Instalação e Execução
+
+```
+Cada subpasta compreende um projeto que deve ser instalado e executado separadamente 
+utilizando dentro da pasta o 
+
+> ng install
