@@ -3,6 +3,7 @@
 ## 
 
 Este projeto consta de diversas pastas que compõe os cursos Básico e Avançado de Angular v.8 sendo desenvolvidos e executados passo a passo.
+Toda a construção foi concebida com a parte teórica e pratica
 
 ### Básico - Tópicos 
 
