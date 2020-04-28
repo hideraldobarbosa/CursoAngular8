@@ -1,0 +1,42 @@
+<div class="container main-container">
+<h3>Interpolation</h3>
+<p>O número de cliques é {{ contadorCliques }}</p>
+<br>
+<h3>Interpolation</h3>
+<p [ngClass]="{'text-secondary':contadorCliques<3,
+                'text-success':contadorCliques>=3,
+                'text-warning':contadorCliques>=5,
+                'text-danger':contadorCliques>=9}" >O número de cliques é {{ contadorCliques }}</p>
+<br>
+<h3>Property Biding</h3>
+<button class="btn btn-" [disabled]="contadorCliques >= 10">Info</button><br><br>
+<img [src]="urlImagem" height="30px" width="80px"/>
+<br>
+<h3>Event Binding</h3>
+<button class="btn btn-warning" (click)="adicionarClique()">Clique-me</button>
+<button class="btn btn-danger" (click)="zerarContadorClique()" [disabled]='contadorCliques < 10'>Zera-me</button>
+<br>
+<h3>Two-way Binding</h3>
+<input tyupe="text" (keyup)="keyUp($event)" placeholder = "Digite seu nome">
+<br>
+<label>seu nome é: {{ nome }} </label>
+<br>
+<h3>Two-way Binding - usando ngModel - sem metodo interpolação </h3>
+<input tyupe="text" [ngModel]="nome" (ngModelChange)="nome = $event" placeholder = "Digite seu nome">
+<br>
+<br>
+<label>seu nome é: {{ nome }} </label>
+<br>
+
+<h3>Two-way Binding - usando ngModel  - normativa - sem metodo interpolação</h3>
+<input tyupe="text" [(ngModel)]="nome" placeholder = "Digite seu nome">
+<br>
+<label class="{{ nome }}">seu nome é: {{ nome }} </label>
+
+<h3>Two-way Binding - usando ngModel  - normativa - sem metodo interpolação</h3>
+<input tyupe="text" [(ngModel)]="nome" placeholder = "Digite seu nome">
+<br>
+<label [ngClass]="nome">seu nome é: {{ nome }} </label>
+
+
+</div>
